@@ -32,7 +32,7 @@ def draw(player, elapsed_time, stars):
     # Space the text down and over from the edge of the screen
     WIN.blit(time_text, (10, 10))
 
-    pygame.draw.rect(WIN, (255, 245, 225), player, border_radius=PLAYER_RADIUS)
+    pygame.draw.rect(WIN, (125, 249, 225), player, border_radius=PLAYER_RADIUS)
 
     for star in stars:
        pygame.draw.rect(WIN, "white", star) 
